@@ -6,7 +6,7 @@ function setup() {
 
 function draw() {
   if(mouseX < width / 2) { //fundo muda com o rato na esquerda ou direita
-  background(255, 45, 200; //amarelo
+  background(255, 45, 200); //amarelo
   fill(220, 50, 50); //vermelho
   } else {
   background(30, 40, 90); //azul escuro
