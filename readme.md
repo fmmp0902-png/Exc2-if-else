@@ -12,7 +12,7 @@ function setup() {
 ```
 
 Para colocar as interações e os elementos, utilizei a function `draw()`. O `ìf (mouseX < width / 2)`, verifica se o rato está na metade esquerda da janela, o `mouseX` indica a posição horizontal do rato e o `width / 2` corresponde ao ponto que divide a largura da área de trabalho em duas partes iguais. Desta forma é possivel alterar a cor de fundo consoante a posição do rato.
-Se a condição for verdadeira, ou seja se efetivamente o fundo mudar de cor, o `background(255, 45, 200)` muda a cor do fundo para rosa e o `fill(220, 50, 50)` corresponde á cor vermelha da forma que surge ao colocar o rato 
+Se a condição for verdadeira, ou seja se efetivamente o fundo mudar de cor, o `background(255, 45, 200)` muda a cor do fundo para rosa e o `fill(220, 50, 50)` corresponde á cor vermelha da forma que se encontra no centro do cursor. Q
 
 
 
