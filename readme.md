@@ -1,6 +1,8 @@
 # Exercicio 2 - if/else
-## Processo
+## Intencionalidade
+Tendo como referência o exemplo demonstrado em aula, pretendi explorar a tomada de decisões no código. No entanto, ao invés de apenas aplicar a condição `if(mouseX < width / 2)` que altera as cores do ecrã consoante a metade esquerda ou direita, apliquei também a condição `if (mouseIsPressed)` que permite alterar a forma entre uma quadrado e um circulo se o rato for pressionado ou não. Desta forma, foi-me possivel explorar duas interações distintas que comunicam entre si através da cor e da forma.
 
+## Processo
 Comecei por utilizar a function `setup ()`, para preparar a área de trabalho, e em seguida o `createCanvas(windowWidth, windowHeight)` para criar a área de trabalho com o tamanho da janela do navegador. 
 Usei também o `noStroke()` para retirar o contorno das formas e o `rectMode(CENTER)` que permite com que o `rect()` desenhe o retângulo a partir do ser centro e não do canto superior esquerdo, fazendo com que o quadrado fique centrado no cursor quando este é pressionado. O mesmo acontece ao circulo que se encontra centrado no cursor, no entanto este só aparece quando o cursor não é pressionado.
 
@@ -36,10 +38,6 @@ function draw() {
   }
 }
 ```
-
-## Intencionalidade
-Tendo como referência o exemplo demonstrado em aula, pretendi explorar a tomada de decisões no código. No entanto, ao invés de apenas aplicar a condição `if(mouseX < width / 2)` que altera as cores do ecrã consoante a metade esquerda ou direita, apliquei também a condição `if (mouseIsPressed)` que permite alterar a forma entre uma quadrado e um circulo se o rato for pressionado ou não. Desta forma, foi-me possivel explorar duas interações distintas que comunicam entre si através da cor e da forma.
-
 
 ## Referências
 [setup()](https://p5js.org/reference/p5/setup/)
