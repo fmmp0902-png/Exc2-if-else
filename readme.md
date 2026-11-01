@@ -38,7 +38,7 @@ function draw() {
 ```
 
 ## Intencionalidade
-
+Tendo como referência o exemplo demonstrado em aula, pretendi explorar a tomada de decisões no código. No entanto, ao invés de apenas aplicar a condição `if(mouseX < width / 2)` que altera as cores do ecrã consoante a metade esquerda ou direita, apliquei também a condição `if (mouseIsPressed)` que permite alterar a forma entre uma quadrado e um circulo se o rato for pressionado ou não. Desta forma, foi-me possivel explorar duas interações distintas que comunicam entre si através da cor e da forma.
 
 
 ## Referências
